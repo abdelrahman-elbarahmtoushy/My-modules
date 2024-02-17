@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Restaurant Name</title>
+</head>
+<body>
+    <header>
+        <h1>Your Restaurant Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#specials">Specials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Your Restaurant</h2>
+        <p>Discover a delightful dining experience with our exquisite menu.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <!-- Display your menu items here -->
+    </section>body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+    <section id="specials">
+        <h2>Specials</h2>
+        <!-- Display your specials here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Include a contact form or information -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
