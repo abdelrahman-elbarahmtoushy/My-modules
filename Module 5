@@ -1,0 +1,10 @@
+function getRandomCategoryShortName() {
+    // List of available categories
+    var categories = ["Lunch", "Dinner", "Sushi", "Jack", /* add other categories as needed */];
+
+    // Get a random index from the categories array
+    var randomIndex = Math.floor(Math.random() * categories.length);
+
+    // Return the random category short_name
+    return categories[randomIndex];
+}
